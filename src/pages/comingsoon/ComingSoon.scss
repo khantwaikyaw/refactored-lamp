@@ -1,0 +1,15 @@
+@import '../../app/variables';
+
+.ComingSoon-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(17, 33, 39);
+  h1 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+  }
+}
