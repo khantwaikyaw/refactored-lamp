@@ -1,9 +1,9 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import './ComingSoon.scss';
+import styles from './ComingSoon.module.scss';
 
 const ComingSoon = () => (
-  <div className="ComingSoon-wrapper">
+  <div className={styles.wrapper}>
     <h1>Coming Soon...</h1>
     <Particles
       params={{

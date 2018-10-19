@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import './Error.scss';
+import classNames from 'classnames';
+import styles from './Error.module.scss';
 
 export default props => (
-  <div className="Error-container Error-forbidden">
-    <div className="Error-contents">
-      {/* <Icon name="ban" size="massive" /> */}
+  <div className={classNames(styles.container, styles.forbidden)}>
+    <div className={styles.contents}>
       <h1>403!</h1>
       <h2>Forbidden</h2>
       <p>

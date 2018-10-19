@@ -1,10 +1,11 @@
 import React from 'react';
 import { Button } from 'reactstrap';
-import './Error.scss';
+import classNames from 'classnames';
+import styles from './Error.module.scss';
 
 export default props => (
-  <div className="Error-container Error-notFound">
-    <div className="Error-contents">
+  <div className={classNames(styles.container, styles.notFound)}>
+    <div className={styles.contents}>
       {/* <Icon name="paw" size="massive" /> */}
       <h1>404!</h1>
       <h2>Page Not Found</h2>
